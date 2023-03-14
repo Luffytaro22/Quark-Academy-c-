@@ -33,7 +33,7 @@ void Vectores::Mayormenor(){
     int aux;
     char aux2[100];
     for(int k = 0; k < 5; k++){
-        for(int i = 0; i < 5-k; i++){
+        for(int i = 0; i < 4-k; i++){
             if(num[i] < num[i+1]){
                 aux = num[i];
                 num[i] = num[i+1];
@@ -42,7 +42,7 @@ void Vectores::Mayormenor(){
         }
     }
     for(int k = 0; k < 5; k++){
-        for(int i = 0; i < 5-k; i++){
+        for(int i = 0; i < 4-k; i++){
             if(strcmp(caracter[i],caracter[i+1]) < 0){
                 strcpy_s(aux2,100,caracter[i]);
                 strcpy_s(caracter[i],100,caracter[i+1]);
