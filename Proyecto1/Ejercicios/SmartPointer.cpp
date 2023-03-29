@@ -28,4 +28,6 @@ int main(){
     std::shared_ptr<Auto> auto_ptr = std::make_shared<Auto>("Ford", "Mustang");
 
     auto_ptr->mostrar_datos();
+    cin.get();cin.get();
+    return 0;
 }
